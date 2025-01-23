@@ -102,12 +102,12 @@ export default function Experiences() {
             <div>
               <Image
                 src="/dad.png"
-                alt="A website I created for my dad for Father's Day"
+                alt="A website I created for my dad for Fathers Day"
                 width={150}
                 height={150}
                 className="rounded-lg"
               />
-              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A website I created for my dad for Father&aposs Day (2022).</p>
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A website I created for my dad for Fathers Day (2022).</p>
             </div>
             <div>
               <Image
