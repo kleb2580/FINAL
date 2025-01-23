@@ -18,7 +18,7 @@ export default function Experiences() {
               <img
                 src="/bear.JPG"
                 alt="A bear representing creativity"
-                className="rounded-lg object-cover transform scale-60"
+                className="rounded-lg object-cover transform scale-[0.5]"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Watercolor painting</p>
             </div>
@@ -26,7 +26,7 @@ export default function Experiences() {
               <img
                 src="/violin.JPG"
                 alt="A violin representing musical creativity"
-                className="rounded-lg object-cover transform scale-60"
+                className="rounded-lg object-cover transform scale-[0.6]"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Me playing the violin</p>
             </div>
@@ -70,7 +70,7 @@ export default function Experiences() {
               <img
                 src="/perlin.png"
                 alt="An art piece I created using Perlin noise and flow fields"
-                className="rounded-lg object-cover transform scale-60"
+                className="rounded-lg object-cover transform scale-[0.6]"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">An art piece I created, with computer science concepts such as Perlin noise and flow fields (2024).</p>
             </div>
@@ -78,7 +78,7 @@ export default function Experiences() {
               <img
                 src="/WEEK3.jpg"
                 alt="An art piece I created using Delaunay triangulation"
-                className="rounded-lg object-cover transform scale-60"
+                className="rounded-lg object-cover transform scale-[0.5]"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">An art piece I created using the computer science concept of Delaunay triangulation.</p>
             </div>
@@ -107,14 +107,14 @@ export default function Experiences() {
         </li>
       </ol>
       <p className="text-sm sm:text-base leading-relaxed mt-4">
-        These experiences have taught me to view engineering design as an inherently creative discipline. While it is often seen as objective and structured, my background helps me approach design challenges with out-of-the-box thinking and innovative ideas. For example, in the aforementioned design report for a bubble tea cup, my creative background allowed me to explore unconventional solutions that went beyond the status quo.
+        Overall, the above experiences have taught me to view engineering design as an inherently creative discipline. While it is often seen as objective and structured, my background helps me approach design challenges with out-of-the-box thinking and innovative ideas. For example, in the design report, my creative background allowed me to explore unconventional solutions that went beyond the status quo.
       </p>
       <div className="flex gap-4 mt-4">
         <div className="image-container">
           <img
             src="/tea.png"
             alt="A design that breaks the status quo of bubble tea cups"
-            className="rounded-lg object-cover transform scale-60"
+            className="rounded-lg object-cover transform scale-[0.7]"
           />
           <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Unique design, inspired by a pez dispenser.</p>
         </div>
