@@ -14,29 +14,25 @@ export default function Experiences() {
             As a child, I immersed myself in creative activities such as playing the violin and drawing. These experiences nurtured my creative thinking and appreciation for aesthetics.
           </p>
           <div className="flex gap-4 mt-4">
-            <div>
+            <div className="image-container">
               <img
                 src="/bear.JPG"
                 alt="A bear representing creativity"
-                width="150"
-                height="150"
-                className="rounded-lg"
+                className="rounded-lg object-cover"
               />
-              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A polar bear I drew with watercolor.</p>
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Watercolor painting</p>
             </div>
-            <div>
+            <div className="image-container">
               <img
                 src="/violin.JPG"
                 alt="A violin representing musical creativity"
-                width="150"
-                height="150"
-                className="rounded-lg"
+                className="rounded-lg object-cover"
               />
-              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Me at a young age playing the violin.</p>
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Me playing the violin</p>
             </div>
           </div>
         </li>
-       <li className="mb-10 ms-4">
+        <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Ages 13–16</time>
           <h3 className="text-lg font-semibold text-mint">Exploration of Coding</h3>
@@ -44,25 +40,21 @@ export default function Experiences() {
             Coding became a natural extension of my curiosity and desire to create. I began making fun low-level games which helped me gain an appreciation for the intersection of creativity and engineering.
           </p>
           <div className="flex gap-4 mt-4">
-            <div>
+            <div className="image-container">
               <img
                 src="/chess.png"
                 alt="A 3D version of Star Wars Holochess"
-                width="150"
-                height="150"
-                className="rounded-lg"
+                className="rounded-lg object-cover"
               />
-              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A 3D version of Star Wars Holochess (2022).</p>
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Star Wars Chess (2022)</p>
             </div>
-            <div>
+            <div className="image-container">
               <img
                 src="/cube.gif"
                 alt="A simple 2D implementation of a Rubik&apos;s cube"
-                width="150"
-                height="150"
-                className="rounded-lg"
+                className="rounded-lg object-cover"
               />
-              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A simple 2D implementation of a Rubik&apos;s cube (2022).</p>
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Rubik&apos;s cube (2022).</p>
             </div>
           </div>
         </li>
@@ -74,23 +66,19 @@ export default function Experiences() {
             I began to consciously recognize my desire to combine my love for creative expression with engineering concepts through code. With this, I undertook creative coding projects, visually expressing various computer science and mathematical concepts.
           </p>
           <div className="flex gap-4 mt-4">
-            <div>
+            <div className="image-container">
               <img
                 src="/perlin.png"
                 alt="An art piece I created using Perlin noise and flow fields"
-                width={150}
-                height={150}
-                className="rounded-lg"
+                className="rounded-lg object-cover"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">An art piece I created, with computer science concepts such as Perlin noise and flow fields (2024).</p>
             </div>
-            <div>
+            <div className="image-container">
               <img
                 src="/WEEK3.jpg"
                 alt="An art piece I created using Delaunay triangulation"
-                width={150}
-                height={150}
-                className="rounded-lg"
+                className="rounded-lg object-cover"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">An art piece I created using the computer science concept of Delaunay triangulation.</p>
             </div>
@@ -99,48 +87,38 @@ export default function Experiences() {
             My introduction to engineering design was primarily in UI and web design, which I found particularly fulfilling because it combines functionality with visual expression.
           </p>
           <div className="flex gap-4 mt-4">
-            <div>
+            <div className="image-container-lg">
               <img
                 src="/dad.png"
                 alt="A website I created for my dad for Fathers Day"
-                width={150}
-                height={150}
-                className="rounded-lg"
+                className="rounded-lg object-cover"
               />
-              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A website I created for my dad for Fathers Day (2022).</p>
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Fathers Day Website (2022)</p>
             </div>
-            <div>
+            <div className="image-container-lg">
               <img
                 src="/pomoe.png"
                 alt="A UI I created for a Pomodoro timer web app"
-                width={150}
-                height={150}
-                className="rounded-lg"
+                className="rounded-lg object-cover"
               />
-              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A UI I created for a Pomodoro timer web app (2022).</p>
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">UI for timer app (2022)</p>
             </div>
           </div>
         </li>
       </ol>
       <p className="text-sm sm:text-base leading-relaxed mt-4">
-        These experiences have taught me to view engineering design as an inherently creative discipline. While it is often seen as objective and structured, my background helps me approach design challenges with out-of-the-box thinking and innovative ideas.
+        These experiences have taught me to view engineering design as an inherently creative discipline. While it is often seen as objective and structured, my background helps me approach design challenges with out-of-the-box thinking and innovative ideas. For example, in the aforementioned design report for a bubble tea cup, my creative background allowed me to explore unconventional solutions that went beyond the status quo.
       </p>
-      <p className="text-base font-normal text-gray-300 dark:text-gray-400">
-            For example, in the aforementioned design report for a bubble tea cup, my creative background allowed me to explore unconventional solutions that went beyond the status quo.
-          </p>
-      
-          <div className="flex gap-4 mt-4">
-            <div>
-              <img
-                src="/tea.png"
-                alt="A design that breaks the status quo of bubble tea cups"
-                width={150}
-                height={150}
-                className="rounded-lg"
-              />
-              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">This is a design that breaks the status quo of bubble tea cups, inspired by a pez dispenser.</p>
-            </div>
-          </div>
+      <div className="flex gap-4 mt-4">
+        <div className="image-container">
+          <img
+            src="/tea.png"
+            alt="A design that breaks the status quo of bubble tea cups"
+            className="rounded-lg object-cover"
+          />
+          <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Unique design, inspired by a pez dispenser.</p>
+        </div>
+      </div>
     </div>
   );
 }
