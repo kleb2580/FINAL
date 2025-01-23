@@ -18,7 +18,7 @@ export default function Experiences() {
               <img
                 src="/bear.JPG"
                 alt="A bear representing creativity"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transform scale-60"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Watercolor painting</p>
             </div>
@@ -26,7 +26,7 @@ export default function Experiences() {
               <img
                 src="/violin.JPG"
                 alt="A violin representing musical creativity"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transform scale-60"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Me playing the violin</p>
             </div>
@@ -44,7 +44,7 @@ export default function Experiences() {
               <img
                 src="/chess.png"
                 alt="A 3D version of Star Wars Holochess"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transform scale-60"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Star Wars Chess (2022)</p>
             </div>
@@ -52,7 +52,7 @@ export default function Experiences() {
               <img
                 src="/cube.gif"
                 alt="A simple 2D implementation of a Rubik&apos;s cube"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transform scale-60"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Rubik&apos;s cube (2022).</p>
             </div>
@@ -70,7 +70,7 @@ export default function Experiences() {
               <img
                 src="/perlin.png"
                 alt="An art piece I created using Perlin noise and flow fields"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transform scale-60"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">An art piece I created, with computer science concepts such as Perlin noise and flow fields (2024).</p>
             </div>
@@ -78,7 +78,7 @@ export default function Experiences() {
               <img
                 src="/WEEK3.jpg"
                 alt="An art piece I created using Delaunay triangulation"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transform scale-60"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">An art piece I created using the computer science concept of Delaunay triangulation.</p>
             </div>
@@ -91,7 +91,7 @@ export default function Experiences() {
               <img
                 src="/dad.png"
                 alt="A website I created for my dad for Fathers Day"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transform scale-60"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Fathers Day Website (2022)</p>
             </div>
@@ -99,7 +99,7 @@ export default function Experiences() {
               <img
                 src="/pomoe.png"
                 alt="A UI I created for a Pomodoro timer web app"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transform scale-60"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">UI for timer app (2022)</p>
             </div>
@@ -114,7 +114,7 @@ export default function Experiences() {
           <img
             src="/tea.png"
             alt="A design that breaks the status quo of bubble tea cups"
-            className="rounded-lg object-cover"
+            className="rounded-lg object-cover transform scale-60"
           />
           <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Unique design, inspired by a pez dispenser.</p>
         </div>
